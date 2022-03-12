@@ -16,19 +16,13 @@ class Insertlist():
 if __name__ == "__main__":
     # Providing the input to the problem
     givenlist = [1,2,3,4,5,6]
-    newindex  = 4
+    newindex  = 3
     newelement = 8
 
     # Handling the use case where new index is not an integer or less than 0 or greater than length + 1 of given list
     if newindex < 0 or newindex > len(givenlist) + 1 or type(newindex) is not int:
         result = givenlist
         print("This position %d is an invalid input" % newindex)
-    # Handling the use case where we are inserting the element at beginning
-    elif newindex == 0:
-        result = [newelement] + givenlist
-    # Handling the use case where we are inserting the element at end
-    elif newindex == len(givenlist):
-        result = givenlist + [newelement]
     else:
         # Creating the class object
         inputlist = Insertlist(givenlist)
@@ -36,6 +30,6 @@ if __name__ == "__main__":
         result = inputlist.addnewelement(newindex, newelement)
 
     # Testing the code and making sure the result is what we expect
-    assert result == [1,2,3,4,8,5,6]
+    assert result == [1,2,3,8,4,5,6]
     # Printing the result and output
     print("Final Output is", result)
