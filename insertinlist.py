@@ -1,4 +1,4 @@
-# Given a position and input,insert the input at the position in the list
+# Given a position and input,insert the input at the position in the list using list concatenation
 
 class Insertlist():
 
