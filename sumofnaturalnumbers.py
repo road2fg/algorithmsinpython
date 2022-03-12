@@ -1,11 +1,12 @@
 # Given an input n, we need to find out the sum of first n natural numbers
 
 class Naturalnumber:
+
     # Initialize the class and use it to assign value to object properties
     def __init__(self, number):
         self.number = number
-    # Create a function that returns the output of the first n natural numbers
 
+    # Create a function that returns the output of the first n natural numbers
     def sumofnumbers(self):
         # Basic formula to calculate the sum is n * n+1/2
         # I would return the value from the above formula
