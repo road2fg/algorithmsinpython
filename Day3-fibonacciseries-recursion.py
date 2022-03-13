@@ -17,7 +17,7 @@ class Fibonacciseries:
 
 if __name__ == "__main__":
     # Providing the input to the problem
-    inputlength = 5
+    inputlength = 10
     # Checking the input using assert function
     assert inputlength > 0, f"{inputlength} is not valid, please check again. Input should be greater than 0"
     # Declaring the result sum as 0
