@@ -26,7 +26,8 @@ if __name__ == "__main__":
     inputlength = 10
     assert inputlength > 0, f"{inputlength} is not valid, please check again. Input should be greater than 2"
     if inputlength == 1:
-        exit("Input is 1,hence series is [0] and sum is 0")
+        print("Input is 1,hence series is [0] and sum is 0")
+        exit(0)
     else:
         # Declaring the start index as 1 and initial sum as 1
         start = 1
