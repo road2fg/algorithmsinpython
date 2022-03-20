@@ -33,8 +33,8 @@ if __name__ == "__main__":
         # Adding the value of nextelement to the resultsum
         resultsum = resultsum + nextelement
     # Testing the code and making sure the result is what we expect
-    assert fibseries.series == [0, 1, 1, 2, 3]
-    assert resultsum == 7
+    assert fibseries.series == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+    assert resultsum == 88
     # Printing the series and result of sum of all elements
     print("The Fibonacci series for the given input is", fibseries.series)
     print("The sum of all elements of the above fibonacci series is", resultsum)
